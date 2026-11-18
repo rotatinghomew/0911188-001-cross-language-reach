@@ -1,0 +1,60 @@
+{
+  "definition": {
+    "name": "联合报道触达分析",
+    "subject": "稿件访问",
+    "table": "visits",
+    "group": "outlet",
+    "measure": "opens"
+  },
+  "tables": {
+    "stories": [
+      {
+        "story_id": "s1",
+        "project": "sea-routes",
+        "language": "zh",
+        "version": 1
+      },
+      {
+        "story_id": "s2",
+        "project": "sea-routes",
+        "language": "es",
+        "version": 1
+      }
+    ],
+    "syndication": [
+      {
+        "copy_id": "c1",
+        "story_id": "s1",
+        "partner": "harbor-news"
+      },
+      {
+        "copy_id": "c2",
+        "story_id": "s2",
+        "partner": "island-daily"
+      }
+    ],
+    "visits": [
+      {
+        "visit_id": "v1",
+        "story_id": "s1",
+        "outlet": "harbor-news",
+        "opens": 8,
+        "visitor_token": "u1"
+      },
+      {
+        "visit_id": "v2",
+        "story_id": "s2",
+        "outlet": "island-daily",
+        "opens": 6,
+        "visitor_token": "u1"
+      },
+      {
+        "visit_id": "v3",
+        "story_id": "s1",
+        "outlet": "harbor-news",
+        "opens": 4,
+        "visitor_token": null
+      }
+    ]
+  }
+}
