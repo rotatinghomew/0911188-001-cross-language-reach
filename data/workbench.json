@@ -1,0 +1,84 @@
+{
+  "week": "2026-W24",
+  "editions": [
+    {
+      "id": "s1-zh",
+      "story": "s1",
+      "project": "sea-routes",
+      "outlet": "harbor",
+      "language": "zh",
+      "state": "live"
+    },
+    {
+      "id": "s1-en",
+      "story": "s1-en-local",
+      "project": "sea-routes",
+      "outlet": "coast",
+      "language": "en",
+      "state": "live"
+    },
+    {
+      "id": "s2-fr",
+      "story": "s2",
+      "project": "sea-routes",
+      "outlet": "coast",
+      "language": "fr",
+      "state": "withdrawn"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "r1",
+      "edition": "s1-en",
+      "origin": "s1-zh",
+      "state": "pending",
+      "recorded_week": "2026-W24"
+    }
+  ],
+  "opens": [
+    {
+      "id": "o1",
+      "edition": "s1-zh",
+      "week": "2026-W24",
+      "token": "harbor:19"
+    },
+    {
+      "id": "o2",
+      "edition": "s1-zh",
+      "week": "2026-W24",
+      "token": "harbor:19"
+    },
+    {
+      "id": "o3",
+      "edition": "s1-en",
+      "week": "2026-W24",
+      "token": "coast:4"
+    },
+    {
+      "id": "o4",
+      "edition": "s1-en",
+      "week": "2026-W24",
+      "token": null
+    },
+    {
+      "id": "o5",
+      "edition": "s2-fr",
+      "week": "2026-W24",
+      "token": "coast:71"
+    },
+    {
+      "id": "o6",
+      "edition": "s1-zh",
+      "week": "2026-W23",
+      "token": "harbor:19"
+    }
+  ],
+  "identity_links": [
+    {
+      "left": "harbor:19",
+      "right": "coast:4",
+      "state": "confirmed",
+      "recorded_week": "2026-W24"
+    }
+  ]
+}
